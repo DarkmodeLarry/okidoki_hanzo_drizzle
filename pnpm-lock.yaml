@@ -1,7 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@auth/drizzle-adapter': ^0.3.5
+  '@auth/core': ^0.18.1
+  '@auth/drizzle-adapter': ^0.3.6
   '@hookform/resolvers': ^3.3.2
   '@planetscale/database': ^1.11.0
   '@radix-ui/react-slot': ^1.0.2
@@ -22,7 +23,7 @@ specifiers:
   clsx: ^2.0.0
   dotenv-cli: ^7.3.0
   drizzle-kit: ^0.19.13
-  drizzle-orm: ^0.28.5
+  drizzle-orm: ^0.28.6
   eslint: ^8.47.0
   eslint-config-next: ^14.0.0
   lucide-react: ^0.292.0
@@ -44,6 +45,7 @@ specifiers:
   zod: ^3.22.4
 
 dependencies:
+  '@auth/core': 0.18.1
   '@auth/drizzle-adapter': 0.3.6
   '@hookform/resolvers': 3.3.2_react-hook-form@7.48.2
   '@planetscale/database': 1.11.0
